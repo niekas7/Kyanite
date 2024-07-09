@@ -1,0 +1,47 @@
+/* Pulling source for the latest version */
+@import url(https://raw.githubusercontent.com/Aely0/Kyanite/master/src/source.css);
+
+/* Adjustable main color palette and background options */
+:root {
+  /* Kyanite accents */
+  --main-color: rgba(22, 91, 123, 1) !important;
+  --dark-bg: rgba(7, 22, 37, 0.95) !important;
+  --soft-bright-color: rgb(133, 206, 255) !important;
+  --hover-color: rgba(22, 91, 123, 0.3) !important;
+  --hover-faded-color: rgba(22, 91, 123, 0.2) !important;
+  --hover-faint-color: rgba(22, 91, 123, 0.1) !important;
+  --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
+  --hover-bright-color: rgba(16, 165, 235, 0.8) !important;
+
+  /* Background options */
+  --background-blur: 0px !important;
+  --background-brightness: 100% !important;
+}
+
+/* Main background */
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash {
+  background-image: url("https://hdun.org/wallpapers/wallhaven-432.jpg") !important;
+}
+
+/* Theme specific filter for the emoji button */
+.emojiButtonNormal-35P0_i .sprite-2lxwfc {
+  filter: hue-rotate(170deg) brightness(65%) saturate(180%) !important;
+}
+
+/* Custom rules */
+
+/* Here you can add your custom css to override the styling set by the theme. */
+
+/* For instance, message quick action bar is hidden by default in this theme, 
+you can make it visible by uncommenting the style below. */
+.message_d5deea.selected_d5deea .buttons_d5deea,
+.mouse-mode .message_d5deea:hover .buttons_d5deea {
+  visibility: visible !important;
+}

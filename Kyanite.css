@@ -89,12 +89,13 @@ body::after,
 
 
 /* Help icon */
-.anchor_af404b.anchorUnderlineOnHover_af404b {
+/* IF YOU DELETE THIS LINKS ALSO DISSAPEAR */
+/*.anchor_af404b.anchorUnderlineOnHover_af404b {
   display: none !important;
 }
 
 /* Inbox icon */
-.recentsIcon_ea0547 {
+/*.recentsIcon_ea0547 {
   display: none !important;
 }
 

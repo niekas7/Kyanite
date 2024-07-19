@@ -107,12 +107,10 @@ body::after,
 
 
 /* Help icon */
-/*.anchor_af404b.anchorUnderlineOnHover_af404b {
-  display: none !important;
-}
+.toolbar_fc4f04 [href="https://support.discord.com"]{display: none;}
 
 /* Inbox icon */	
-/*.recentsIcon_ea0547 {
+.recentsIcon_ea0547 {
   display: none !important;
 }
 

@@ -65,6 +65,14 @@ body::after,
 
 }
 
+
+.searchBar_b56bbc {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+
+
+
 /* Nitro header */
 .headerBar_d175a8.container_fc4f04.themed_fc4f04 {
   background: rgba(0, 0, 0, 0) !important; /* Semi-transparent background */
@@ -118,7 +126,7 @@ body::after,
 .contents_dd4f85 {
     filter: grayscale(0%) sepia(100%) saturate(700%) hue-rotate(180deg) brightness(107%) contrast(77%) !important;
 }
-
+/* Top corner icons */
 .iconWrapper_fc4f04.clickable_fc4f04 svg path {
   fill: rgb(150, 204, 251);
 }

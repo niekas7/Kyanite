@@ -55,6 +55,16 @@ body::after,
 
 }
 
+/* GIF header */
+.header_b56bbc {
+  background: rgba(0, 0, 0, 0) !important; /* Semi-transparent background */
+  /* background: rgba(22, 91, 123, 0.3) !important; */ /* Semi-transparent blueish background */
+  backdrop-filter: blur(0px); /* Optional: add blur effect */
+  -webkit-backdrop-filter: blur(0px); /* Safari support */
+  background-blend-mode: overlay; /* Blend mode to enhance effect */
+
+}
+
 /* Nitro header */
 .headerBar_d175a8.container_fc4f04.themed_fc4f04 {
   background: rgba(0, 0, 0, 0) !important; /* Semi-transparent background */
@@ -89,12 +99,11 @@ body::after,
 
 
 /* Help icon */
-/* IF YOU DELETE THIS LINKS ALSO DISSAPEAR */
 /*.anchor_af404b.anchorUnderlineOnHover_af404b {
   display: none !important;
 }
 
-/* Inbox icon */
+/* Inbox icon */	
 /*.recentsIcon_ea0547 {
   display: none !important;
 }
@@ -113,6 +122,8 @@ body::after,
 .iconWrapper_fc4f04.clickable_fc4f04 svg path {
   fill: rgb(150, 204, 251);
 }
+
+
 
 /* Custom rules */
 

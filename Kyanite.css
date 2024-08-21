@@ -114,6 +114,37 @@ body::after,
   display: none !important;
 }
 
+/* Channel app launcher (apps) button */
+.channelAppLauncher_df39bd {
+  display: none !important;
+}
+
+/* fix nitro gift and other similar menus background color */
+.content_f9a4c9 {
+  background-color: #081624;
+}
+
+/* fix nitro gift and other similar menus title bar color */
+.skuSelectModalHeader_f92df2 {
+  background-color: #081624;
+}
+
+/* fix gif/sticker/emoji menu */
+.header_b56bbc {
+  background-color: #081624;
+}
+.searchBar_c6ee36 {
+  background-color: #020a13;
+}
+#gif-picker-tab-panel {
+  background-color: #081624;
+}
+
+/* fix autocomplete background */
+.autocomplete_bcc24e {
+  background-color: #081624;
+}
+
 /* Glowy thingy */ 
 .children_fc4f04::after {
   content: none !important;

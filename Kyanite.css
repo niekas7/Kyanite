@@ -145,6 +145,11 @@ body::after,
   background-color: #081624;
 }
 
+/* fixed unread messages bubble */
+.unreadBar_c43953 {
+  background-color: #446485;
+}
+
 /* Glowy thingy */ 
 .children_fc4f04::after {
   content: none !important;

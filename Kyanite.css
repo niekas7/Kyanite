@@ -105,6 +105,12 @@ body::after,
   display: none;
 }
 
+/* remove gift button */
+[class^=channelTextArea] [class^=buttons] > button,
+button:has([d^=" M-7,10"])
+{
+    display: none !important;
+}
 
 /* Help icon */
 .toolbar_fc4f04 [href="https://support.discord.com"]{display: none;}

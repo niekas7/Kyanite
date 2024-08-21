@@ -119,6 +119,16 @@ body::after,
   display: none !important;
 }
 
+/* Disable nitro gift */
+.content_f9a4c9 {
+  display: none !important;
+}
+
+/* fix nitro gift menu title bar color */
+.results_bad108 {
+  background-color: #081624;
+}
+
 /* Glowy thingy */ 
 .children_fc4f04::after {
   content: none !important;

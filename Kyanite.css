@@ -119,12 +119,12 @@ body::after,
   display: none !important;
 }
 
-/* Disable nitro gift */
+/* fix nitro gift and other similar menus background color */
 .content_f9a4c9 {
-  display: none !important;
+  background-color: #081624;
 }
 
-/* fix nitro gift menu title bar color */
+/* fix nitro gift and other similar menus title bar color */
 .results_bad108 {
   background-color: #081624;
 }

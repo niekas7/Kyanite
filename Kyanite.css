@@ -129,6 +129,17 @@ body::after,
   background-color: #081624;
 }
 
+/* fix gif/sticker/emoji menu */
+.header_b56bbc, .flex_dc333f {
+  background-color: #081624;
+}
+.searchBar_c6ee36 {
+  background-color: #020a13;
+}
+#gif-picker-tab-panel {
+  background-color: #081624;
+}
+
 /* Glowy thingy */ 
 .children_fc4f04::after {
   content: none !important;

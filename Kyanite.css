@@ -114,6 +114,11 @@ body::after,
   display: none !important;
 }
 
+/* Channel app launcher (apps) button */
+.channelAppLauncher_df39bd {
+  display: none !important;
+}
+
 /* Glowy thingy */ 
 .children_fc4f04::after {
   content: none !important;

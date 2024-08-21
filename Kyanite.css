@@ -140,6 +140,11 @@ body::after,
   background-color: #081624;
 }
 
+/* fix autocomplete background */
+.autocomplete_bcc24e {
+  background-color: #081624;
+}
+
 /* Glowy thingy */ 
 .children_fc4f04::after {
   content: none !important;

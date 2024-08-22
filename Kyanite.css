@@ -12,6 +12,7 @@
   --hover-faint-color: rgba(22, 91, 123, 0.1) !important;
   --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
   --hover-bright-color: rgba(16, 165, 235, 0.8) !important;
+  --interactive-normal: #66d4ff !important;
 
   /* Background options */
   --background-blur: 0px !important;
@@ -28,11 +29,6 @@ body::after,
 .auth-tiling-bg,
 .invite-modal .invite-splash {
   background-image: url("https://github.com/niekas7/Kyanite/blob/main/Default_Background.jpg?raw=true") !important;
-}
-
-/* Theme specific filter for the emoji button */
-.emojiButtonNormal-35P0_i .sprite-2lxwfc {
-  filter: hue-rotate(170deg) brightness(65%) saturate(180%) !important;
 }
 
 /* Gray bar with transparency and background */
@@ -55,23 +51,9 @@ body::after,
 
 }
 
-/* GIF header */
-.header_b56bbc {
-  background: rgba(0, 0, 0, 0) !important; /* Semi-transparent background */
-  /* background: rgba(22, 91, 123, 0.3) !important; */ /* Semi-transparent blueish background */
-  backdrop-filter: blur(0px); /* Optional: add blur effect */
-  -webkit-backdrop-filter: blur(0px); /* Safari support */
-  background-blend-mode: overlay; /* Blend mode to enhance effect */
-
-}
-
-
 .searchBar_b56bbc {
     background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
 }
-
-
-
 
 /* Nitro header */
 .headerBar_d175a8.container_fc4f04.themed_fc4f04 {
@@ -92,13 +74,6 @@ body::after,
   background-blend-mode: overlay; /* Blend mode to enhance effect */
   
 }
-
-/* Nitro tab */
-/*
-.avatarWithText_c91bad.layout_f9647d{
-  display: none;
-}
-*/
 
 /* Shop tab */
 .channel_c91bad .linkButton_c91bad > .link_c91bad[href="/shop"] {
@@ -153,19 +128,7 @@ body::after,
 /* Glowy thingy */ 
 .children_fc4f04::after {
   content: none !important;
-	
 }
-
-/* Typing icons color */
-.contents_dd4f85 {
-    filter: grayscale(0%) sepia(100%) saturate(700%) hue-rotate(180deg) brightness(107%) contrast(77%) !important;
-}
-/* Top corner icons */
-.iconWrapper_fc4f04.clickable_fc4f04 svg path {
-  fill: rgb(150, 204, 251);
-}
-
-
 
 /* Custom rules */
 
@@ -176,8 +139,6 @@ you can make it visible by uncommenting the style below. */
 .message_d5deea.selected_d5deea .buttons_d5deea,
 .mouse-mode .message_d5deea:hover .buttons_d5deea {
   visibility: visible !important;
-
-
 }
 
 .role_f9575e {
@@ -191,19 +152,161 @@ you can make it visible by uncommenting the style below. */
   /*Change Roundness of Roles*/
 }
 
-
-.descriptionClamp_fc5c48:not(.headerText_d331f1 .descriptionClamp_fc5c48) {
-    -webkit-line-clamp: unset;
-    max-height: 400px;
-}
-.viewFullBio_fc5c48{display: none;}
- 
-.membersGroup_cbd271:has(>.headerContainer_bc6acb),
-.membersWrap_cbd271 .openOnHover_c64476{
-    display: none!important;
-}
-
 .container_fc4f04.themed_fc4f04 {
-	background-color: rgba(0, 40, 50, 0.5); /* Blue with 50% opacity */
+		background-color: rgba(0, 80, 100, 0.4); /* Blue with 50% opacity */
 
+}
+
+/* quick action toolbar */
+.wrapper_f7e168 {
+    background: rgba(0, 0, 0, 0.4) !important;
+    border: 1px solid var(--hover-color) !important;
+}
+.button_f7e168 {
+    color: var(--hover-bright-color) !important;
+}
+.button_f7e168:hover {
+    background-color: var(--hover-color) !important;
+}
+.button_f7e168:active {
+    color: var(--soft-bright-color) !important;
+    background-color: var(--hover-dark-color) !important;
+}
+.button_f7e168.dangerous_f7e168 {
+    color: var(--hover-red-bright-color) !important;
+}
+.button_f7e168.selected_f7e168 {
+    color: var(--soft-bright-color) !important;
+    background-color: var(--hover-dark-color) !important;
+}
+
+[class^=channelTextArea] [class^=buttons] > button,
+button:has([d^=" M-7,10"])
+{
+    display: none !important;
+}
+
+.expression-picker-chat-input-button.buttonContainer_d0696b {
+	color: var(--soft-bright-color) !important;
+}
+
+.searchBar_e0840f {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.iconWrapper_fc4f04.clickable_fc4f04.selected_fc4f04 svg path {
+  fill: rgb(150, 204, 251);
+}
+
+.iconWrapper_fc4f04 svg path {
+  fill: rgb(150, 204, 251);
+}
+
+.akaBadge_d6c26f.textBadge_df8943.base_df8943.eyebrow_df8943.baseShapeRound_df8943 {
+    background-color: rgba(255, 255, 255, 0); /* Adjust the color values as needed */
+	color: #66d4ff
+}
+.nicknames_d6c26f.overflow_a82120 {
+	color: #66d4ff
+}
+
+.colorStandard_d1aa77.size14_e8b2ab.description_b89ec7.formText_b89ec7.modeDefault_b89ec7 {
+	color: #66d4ff
+}
+
+.text_a3747e.marginTop8_f7730b {
+	color: #66d4ff
+}
+
+.image_a3747e.marginBottom40_f7730b {
+	color: #66d4ff
+}
+
+.image_a3747e {
+filter: grayscale(0%) sepia(100%) saturate(350%) hue-rotate(180deg) brightness(80%) contrast(77%) !important;
+}
+
+.hamBanner_d1cafc {
+	background-color: rgba(0, 80, 100, 0.4);
+}
+
+.showMoreButton_c83b44.pill_c83b44 {
+	background-color: rgba(0, 80, 100, 0.4);
+}
+
+/* Or targeting the path within the SVG */
+.vc-safety-icon path {
+    fill: rgba(0, 155, 190, 1);
+}
+
+.dotSpacer_c32acf {
+    background-color: rgba(0, 155, 190, 1);
+}
+
+.container_e5a42d {
+	background-color: rgba(0, 60, 100, 0.4);
+}
+
+.overflow_a82120 {
+	color: rgba(0, 150, 190, 1);
+}
+
+.name_ec8679 {
+	color: rgba(0, 130, 175, 1);
+}
+
+.button_f9d37d.icon_f9d37d.vc-permviewer-role-button {
+    background-color: rgba(0, 80, 100, 0.4) !important;
+}
+
+.userTagUsername_c32acf {
+    color: rgba(0, 155, 190, 1);
+}
+
+.icon_f9d37d path {
+    fill: rgba(0, 140, 175, 0.9);
+}
+
+.container_c18ec9.medium_c18ec9 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.circleButton_a930f1.button_e258f5.secondary_e258f5.size36_e258f5 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.searchBar_b0740c.container_c18ec9.small_c18ec9 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.searchBar_cedfaf.container_c18ec9.small_c18ec9{
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.modal_f30e90.root_f9a4c9.fullscreenOnMobile_f9a4c9.rootWithShadow_f9a4c9 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.container_f30e90 {
+    background-color: rgba(0, 35, 50, 0.8) !important; /* Replace with your desired color */
+}
+
+.container_acb8b3 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.header_f30e90 {
+    background-color: rgba(0, 35, 50, 0.8) !important; /* Replace with your desired color */
+}
+
+.container_d7c696 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.vc-settings-quickActions-pill  {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.vc-addon-card {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
 }

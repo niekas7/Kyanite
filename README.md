@@ -1,7 +1,7 @@
 # Kyanite
 
 
-### [Download Kyanite (07-19-2024)](https://github.com/niekas7/Kyanite/releases/download/1.003/Kyanite.css)
+### [Download Kyanite (08-22-2024)](https://github.com/niekas7/Kyanite/releases/download/1.1/Kyanite.css)
 ---
 ![image](https://github.com/niekas7/Kyanite/assets/89061334/11a9e32e-91d5-4e73-9450-859ae0abc568)
 ---

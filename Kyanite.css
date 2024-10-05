@@ -94,6 +94,10 @@ body::after,
   display: none !important;
 }
 
+.footer_aa1bff {
+  display: none !important;
+}
+
 /* fix nitro gift and other similar menus background color */
 .content_f9a4c9 {
   background-color: #081624;

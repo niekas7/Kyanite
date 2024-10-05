@@ -80,6 +80,14 @@ body::after,
   display: none;
 }
 
+[class*="membersGroup_"][class*="container_"]:nth-of-type(1){
+   display:none!important;
+
+}
+
+[class*="container_"][class*="openOnHover_"]{
+   display:none!important;
+}
 
 /* Help icon */
 .toolbar_fc4f04 [href="https://support.discord.com"]{display: none;}
@@ -91,6 +99,10 @@ body::after,
 
 /* Channel app launcher (apps) button */
 .channelAppLauncher_df39bd {
+  display: none !important;
+}
+
+.footer_aa1bff {
   display: none !important;
 }
 
@@ -128,10 +140,6 @@ body::after,
 /* Glowy thingy */ 
 .children_fc4f04::after {
   content: none !important;
-}
-
-.container_c64476, .openOnHover_c64476, .headerContainer_bc6acb{
-  display: none !important; /* Remove activitys in member list */
 }
 
 /* Custom rules */

@@ -2,7 +2,10 @@
     Fixes
 */
 
-
+/* Reaction bg */
+.reactionBtn_ec6b19.forceShow_ec6b19.forceShowLook_ec6b19 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
 
 
 /* Shop tab */

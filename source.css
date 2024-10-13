@@ -2,6 +2,11 @@
     Fixes
 */
 
+/* Threads search bar */
+.searchBox_e664f3.container_c18ec9.small_c18ec9 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
 /* Threads bg */
 .container_fb4810 {
     background-color: transparent;

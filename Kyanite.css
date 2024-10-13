@@ -54,6 +54,10 @@ body::after,
 .searchBar_b56bbc {
     background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
 }
+/* Threads search bar */
+.searchBox_e664f3.container_c18ec9.small_c18ec9 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
 
 /* Nitro header */
 .headerBar_d175a8.container_fc4f04.themed_fc4f04 {

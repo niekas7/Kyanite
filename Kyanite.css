@@ -1,5 +1,5 @@
 /* Pulling source for the latest version */
-@import url(https://raw.githubusercontent.com/niekas7/Kyanite/refs/heads/main/Kyanite.css);
+@import url(https://hdun.org/niekas7/source.css);
 
 /* Adjustable main color palette and background options */
 :root {
@@ -65,6 +65,23 @@ body::after,
   background-image: url("https://github.com/niekas7/Kyanite/blob/main/Default_Background.jpg?raw=true") !important;
 }
 
+/* Gray bar with transparency and background */
+.title_a7d72e.container_fc4f04.themed_fc4f04 {
+  background: var(--transparent-color) !important; /* Semi-transparent background */
+  backdrop-filter: blur(var(--sepparation-blur)) brightness(1.2) !important; /* Optional: add blur effect */
+  border-bottom: 2px solid var(--hover-bright-color) !important; /* Line below */
+  border-radius: 10px !important; /* Rounded corners */
+}
+
+/* Friends header */
+.theme-dark.container_fc4f04.themed_fc4f04 {
+  background: var(--trasnparent-color !important; /* Semi-transparent background */
+  backdrop-filter: var(--sepparation-blur) !important; /* Optional: add blur effect */
+
+
+
+}
+
 /* Custom rules */
 
 /* Here you can add your custom css to override the styling set by the theme. */
@@ -75,4 +92,3 @@ you can make it invisible by commenting the style below. */
 .mouse-mode .message_d5deea:hover .buttons_d5deea {
   visibility: visible !important;
 }
-

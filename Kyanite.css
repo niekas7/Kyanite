@@ -1,22 +1,56 @@
 /* Pulling source for the latest version */
-@import url(https://raw.githubusercontent.com/niekas7/Kyanite/main/source.css);
+@import url(https://raw.githubusercontent.com/niekas7/Kyanite/refs/heads/main/Kyanite.css);
 
 /* Adjustable main color palette and background options */
 :root {
   /* Kyanite accents */
-  --main-color: rgba(22, 91, 123, 1) !important;
-  --dark-bg: rgba(7, 22, 37, 0.95) !important;
-  --soft-bright-color: rgb(133, 206, 255) !important;
-  --hover-color: rgba(22, 91, 123, 0.3) !important;
-  --hover-faded-color: rgba(22, 91, 123, 0.2) !important;
-  --hover-faint-color: rgba(22, 91, 123, 0.1) !important;
-  --hover-dark-color: rgba(22, 91, 123, 0.8) !important;
-  --hover-bright-color: rgba(16, 165, 235, 0.8) !important;
-  --interactive-normal: #66d4ff !important;
+	--main-color: rgba(22, 91, 123, 1) !important;
+	--dark-bg: rgba(7, 22, 37, 0.95) !important;
+	--soft-bright-color: rgb(133, 206, 255) !important;
+	--hover-color: rgba(22, 91, 123, 0.3) !important;
+	--hover-faded-color: rgba(22, 91, 123, 0.2) !important;
+	--hover-faint-color: rgba(22, 91, 123, 0.1) !important;
+	--hover-dark-color: rgba(22, 91, 123, 0.8) !important;
+	--hover-bright-color: rgba(16, 165, 235, 0.8) !important;
+	--interactive-normal: #66d4ff !important;
 
-  /* Background options */
-  --background-blur: 0px !important;
-  --background-brightness: 100% !important;
+    /* Magenta accents */
+    /*--main-color: rgb(115, 22, 123) !important;
+    --dark-bg: rgba(37, 7, 37, 0.95) !important;
+    --soft-bright-color: rgba(255, 133, 255, 1) !important;
+    --hover-color: rgba(123, 22, 123, 0.3) !important;
+    --hover-faded-color: rgba(123, 22, 123, 0.2) !important;
+    --hover-faint-color: rgba(123, 22, 123, 0.1) !important;
+    --hover-dark-color: rgba(123, 22, 123, 0.8) !important;
+    --hover-bright-color: rgba(253, 97, 227, 0.8) !important;*/
+
+    /* State colors */
+    --green-bright-color: rgb(143, 255, 133) !important;
+    --green-dark-color: rgba(34, 123, 22) !important;
+    --hover-green-color: rgba(46, 123, 22, 0.3) !important;
+    --hover-green-bright-color: rgba(41, 199, 27, 0.8) !important;
+    --hover-green-dark-color: rgba(34, 123, 22, 0.8) !important;
+
+    --yellow-bright-color: rgb(255, 202, 110) !important;
+    --yellow-dark-color: rgba(201, 127, 0) !important;
+    --hover-yellow-color: rgba(201, 127, 0, 0.3) !important;
+    --hover-yellow-bright-color: rgba(250, 166, 26, 0.8) !important;
+    --hover-yellow-dark-color: rgba(201, 127, 0, 0.8) !important;
+
+    --red-bright-color: rgb(255, 62, 62) !important;
+    --red-dark-color: rgba(123, 22, 22) !important;
+    --hover-red-color: rgba(123, 22, 22, 0.3) !important;
+    --hover-red-bright-color: rgba(255, 36, 36, 0.8) !important;
+    --hover-red-dark-color: rgba(123, 22, 22, 0.8) !important;
+	
+	--trasnparent-color: rgba(0, 0, 0, 0) !important;
+
+    /* Background options */
+    --sepparation-blur: 10px !important;
+    --background-blur: 0px !important;
+    --background-brightness: 100% !important;
+  
+
 }
 
 /* Main background */
@@ -31,231 +65,14 @@ body::after,
   background-image: url("https://github.com/niekas7/Kyanite/blob/main/Default_Background.jpg?raw=true") !important;
 }
 
-/* Gray bar with transparency and background */
-.title_a7d72e.container_fc4f04.themed_fc4f04 {
-  background: rgba(0, 0, 0, 0) !important; /* Semi-transparent background */
-  /* background: rgba(22, 91, 123, 0.3) !important; */ /* Semi-transparent blueish background */
-  backdrop-filter: blur(0px); /* Optional: add blur effect */
-  -webkit-backdrop-filter: blur(0px); /* Safari support */
-  background-blend-mode: overlay; /* Blend mode to enhance effect */
-
-}
-
-/* Friends header */
-.theme-dark.container_fc4f04.themed_fc4f04 {
-  background: rgba(0, 0, 0, 0) !important; /* Semi-transparent background */
-  /* background: rgba(22, 91, 123, 0.3) !important; */ /* Semi-transparent blueish background */
-  backdrop-filter: blur(0px); /* Optional: add blur effect */
-  -webkit-backdrop-filter: blur(0px); /* Safari support */
-  background-blend-mode: overlay; /* Blend mode to enhance effect */
-
-}
-
-.searchBar_b56bbc {
-    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
-}
-/* Threads search bar */
-.searchBox_e664f3.container_c18ec9.small_c18ec9 {
-    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
-}
-
-/* Nitro header */
-.headerBar_d175a8.container_fc4f04.themed_fc4f04 {
-  background: rgba(0, 0, 0, 0) !important; /* Semi-transparent background */
-  /* background: rgba(22, 91, 123, 0.3) !important; */ /* Semi-transparent blueish background */
-  backdrop-filter: blur(0px); /* Optional: add blur effect */
-  -webkit-backdrop-filter: blur(0px); /* Safari support */
-  background-blend-mode: overlay; /* Blend mode to enhance effect */
-
-}
-
-/* Nitro background */
-.scroller_a8b566.auto_c49869.scrollerBase_c49869 {
-  background: rgba(0, 0, 0, 0) !important; /* Semi-transparent background */
-  /* background: rgba(22, 91, 123, 0.3) !important; */ /* Semi-transparent blueish background */
-  backdrop-filter: blur(0px); /* Optional: add blur effect */
-  -webkit-backdrop-filter: blur(0px); /* Safari support */
-  background-blend-mode: overlay; /* Blend mode to enhance effect */
-  
-}
-
 /* Custom rules */
 
 /* Here you can add your custom css to override the styling set by the theme. */
 
-/* For instance, message quick action bar is hidden by default in this theme, 
-you can make it visible by uncommenting the style below. */
+/* For instance, message quick action bar is unhidden by default in this theme, 
+you can make it invisible by commenting the style below. */
 .message_d5deea.selected_d5deea .buttons_d5deea,
 .mouse-mode .message_d5deea:hover .buttons_d5deea {
   visibility: visible !important;
 }
 
-.role_f9575e {
-  transform: translate(0);
-  overflow: hidden;
-  border: 0;
-
-  --transparency: .4;
-  /*Change Background Opacity*/
-  border-radius: 5px;
-  /*Change Roundness of Roles*/
-}
-
-.container_fc4f04.themed_fc4f04 {
-		background-color: rgba(0, 80, 100, 0.4); /* Blue with 50% opacity */
-
-}
-
-/* quick action toolbar */
-.wrapper_f7e168 {
-    background: rgba(0, 0, 0, 0.4) !important;
-    border: 1px solid var(--hover-color) !important;
-}
-.button_f7e168 {
-    color: var(--hover-bright-color) !important;
-}
-.button_f7e168:hover {
-    background-color: var(--hover-color) !important;
-}
-.button_f7e168:active {
-    color: var(--soft-bright-color) !important;
-    background-color: var(--hover-dark-color) !important;
-}
-.button_f7e168.dangerous_f7e168 {
-    color: var(--hover-red-bright-color) !important;
-}
-.button_f7e168.selected_f7e168 {
-    color: var(--soft-bright-color) !important;
-    background-color: var(--hover-dark-color) !important;
-}
-
-[class^=channelTextArea] [class^=buttons] > button,
-button:has([d^=" M-7,10"])
-{
-    display: none !important;
-}
-
-.expression-picker-chat-input-button.buttonContainer_d0696b {
-	color: var(--soft-bright-color) !important;
-}
-
-.searchBar_e0840f {
-    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
-}
-
-.iconWrapper_fc4f04.clickable_fc4f04.selected_fc4f04 svg path {
-  fill: rgb(150, 204, 251);
-}
-
-.iconWrapper_fc4f04 svg path {
-  fill: rgb(150, 204, 251);
-}
-
-.akaBadge_d6c26f.textBadge_df8943.base_df8943.eyebrow_df8943.baseShapeRound_df8943 {
-    background-color: rgba(255, 255, 255, 0); /* Adjust the color values as needed */
-	color: #66d4ff
-}
-.nicknames_d6c26f.overflow_a82120 {
-	color: #66d4ff
-}
-
-.colorStandard_d1aa77.size14_e8b2ab.description_b89ec7.formText_b89ec7.modeDefault_b89ec7 {
-	color: #66d4ff
-}
-
-.text_a3747e.marginTop8_f7730b {
-	color: #66d4ff
-}
-
-.image_a3747e.marginBottom40_f7730b {
-	color: #66d4ff
-}
-
-.image_a3747e {
-filter: grayscale(0%) sepia(100%) saturate(350%) hue-rotate(180deg) brightness(80%) contrast(77%) !important;
-}
-
-.hamBanner_d1cafc {
-	background-color: rgba(0, 80, 100, 0.4);
-}
-
-.showMoreButton_c83b44.pill_c83b44 {
-	background-color: rgba(0, 80, 100, 0.4);
-}
-
-/* Or targeting the path within the SVG */
-.vc-safety-icon path {
-    fill: rgba(0, 155, 190, 1);
-}
-
-.dotSpacer_c32acf {
-    background-color: rgba(0, 155, 190, 1);
-}
-
-.container_e5a42d {
-	background-color: rgba(0, 60, 100, 0.4);
-}
-
-.overflow_a82120 {
-	color: rgba(0, 150, 190, 1);
-}
-
-.name_ec8679 {
-	color: rgba(0, 130, 175, 1);
-}
-
-.button_f9d37d.icon_f9d37d.vc-permviewer-role-button {
-    background-color: rgba(0, 80, 100, 0.4) !important;
-}
-
-.userTagUsername_c32acf {
-    color: rgba(0, 155, 190, 1);
-}
-
-.icon_f9d37d path {
-    fill: rgba(0, 140, 175, 0.9);
-}
-
-.container_c18ec9.medium_c18ec9 {
-    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
-}
-
-.circleButton_a930f1.button_e258f5.secondary_e258f5.size36_e258f5 {
-    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
-}
-
-.searchBar_b0740c.container_c18ec9.small_c18ec9 {
-    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
-}
-
-.searchBar_cedfaf.container_c18ec9.small_c18ec9{
-    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
-}
-
-.modal_f30e90.root_f9a4c9.fullscreenOnMobile_f9a4c9.rootWithShadow_f9a4c9 {
-    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
-}
-
-.container_f30e90 {
-    background-color: rgba(0, 35, 50, 0.8) !important; /* Replace with your desired color */
-}
-
-.container_acb8b3 {
-    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
-}
-
-.header_f30e90 {
-    background-color: rgba(0, 35, 50, 0.8) !important; /* Replace with your desired color */
-}
-
-.container_d7c696 {
-    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
-}
-
-.vc-settings-quickActions-pill  {
-    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
-}
-
-.vc-addon-card {
-    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
-}

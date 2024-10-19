@@ -1,5 +1,8 @@
-/* Pulling source for the latest version */
-@import url(https://raw.githubusercontent.com/niekas7/Kyanite/main/source.css);
+/* Load source.css first */
+@import url(https://raw.githubusercontent.com/niekas7/Kyanite/refs/heads/main/source.css);
+
+/* Load fixes.css after to override the previous settings */
+@import url(https://raw.githubusercontent.com/niekas7/Kyanite/refs/heads/main/fixes.css);
 
 /* Adjustable main color palette and background options */
 :root {
@@ -13,7 +16,8 @@
 	--hover-dark-color: rgba(22, 91, 123, 0.8) !important;
 	--hover-bright-color: rgba(16, 165, 235, 0.8) !important;
 	--interactive-normal: #66d4ff !important;
-
+	/* emoji color */
+	
     /* Magenta accents */
     /*--main-color: rgb(115, 22, 123) !important;
     --dark-bg: rgba(37, 7, 37, 0.95) !important;
@@ -22,7 +26,9 @@
     --hover-faded-color: rgba(123, 22, 123, 0.2) !important;
     --hover-faint-color: rgba(123, 22, 123, 0.1) !important;
     --hover-dark-color: rgba(123, 22, 123, 0.8) !important;
-    --hover-bright-color: rgba(253, 97, 227, 0.8) !important;*/
+    --hover-bright-color: rgba(253, 97, 227, 0.8) !important;
+	--interactive-normal: #ff85ff !important;*/
+	/* emoji color */
 
     /* State colors */
     --green-bright-color: rgb(143, 255, 133) !important;
@@ -49,8 +55,6 @@
     --sepparation-blur: 10px !important;
     --background-blur: 0px !important;
     --background-brightness: 100% !important;
-  
-
 }
 
 /* Main background */
@@ -65,29 +69,12 @@ body::after,
   background-image: url("https://github.com/niekas7/Kyanite/blob/main/Default_Background.jpg?raw=true") !important;
 }
 
-/* Gray bar with transparency and background */
-.title_a7d72e.container_fc4f04.themed_fc4f04 {
-  background: var(--transparent-color) !important; /* Semi-transparent background */
-  backdrop-filter: blur(var(--sepparation-blur)) brightness(1.2) !important; /* Optional: add blur effect */
-  border-bottom: 2px solid var(--hover-bright-color) !important; /* Line below */
-  border-radius: 10px !important; /* Rounded corners */
-}
-
-/* Friends header */
-.theme-dark.container_fc4f04.themed_fc4f04 {
-  background: var(--trasnparent-color !important; /* Semi-transparent background */
-  backdrop-filter: var(--sepparation-blur) !important; /* Optional: add blur effect */
-
-
-
-}
-
 /* Custom rules */
 
 /* Here you can add your custom css to override the styling set by the theme. */
 
-/* For instance, message quick action bar is unhidden by default in this theme, 
-you can make it invisible by commenting the style below. */
+/* For instance, message quick action bar is hidden by default in this theme, 
+you can make it visible by uncommenting the style below. */
 .message_d5deea.selected_d5deea .buttons_d5deea,
 .mouse-mode .message_d5deea:hover .buttons_d5deea {
   visibility: visible !important;

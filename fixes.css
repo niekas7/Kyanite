@@ -1,0 +1,551 @@
+/* Adjustable main color palette and background options */
+:root {
+  /* Kyanite accents */
+	--main-color: rgba(22, 91, 123, 1) !important;
+	--dark-bg: rgba(7, 22, 37, 0.95) !important;
+	--soft-bright-color: rgb(133, 206, 255) !important;
+	--hover-color: rgba(22, 91, 123, 0.3) !important;
+	--hover-faded-color: rgba(22, 91, 123, 0.2) !important;
+	--hover-faint-color: rgba(22, 91, 123, 0.1) !important;
+	--hover-dark-color: rgba(22, 91, 123, 0.8) !important;
+	--hover-bright-color: rgba(16, 165, 235, 0.8) !important;
+	--interactive-normal: #66d4ff !important;
+
+    /*Magenta accents */
+    /*--main-color: rgb(115, 22, 123) !important;
+    --dark-bg: rgba(37, 7, 37, 0.95) !important;
+    --soft-bright-color: rgba(255, 133, 255, 1) !important;
+    --hover-color: rgba(123, 22, 123, 0.3) !important;
+    --hover-faded-color: rgba(123, 22, 123, 0.2) !important;
+    --hover-faint-color: rgba(123, 22, 123, 0.1) !important;
+    --hover-dark-color: rgba(123, 22, 123, 0.8) !important;
+    --hover-bright-color: rgba(253, 97, 227, 0.8) !important*/;
+
+    /* State colors */
+    --green-bright-color: rgb(143, 255, 133) !important;
+    --green-dark-color: rgba(34, 123, 22) !important;
+    --hover-green-color: rgba(46, 123, 22, 0.3) !important;
+    --hover-green-bright-color: rgba(41, 199, 27, 0.8) !important;
+    --hover-green-dark-color: rgba(34, 123, 22, 0.8) !important;
+
+    --yellow-bright-color: rgb(255, 202, 110) !important;
+    --yellow-dark-color: rgba(201, 127, 0) !important;
+    --hover-yellow-color: rgba(201, 127, 0, 0.3) !important;
+    --hover-yellow-bright-color: rgba(250, 166, 26, 0.8) !important;
+    --hover-yellow-dark-color: rgba(201, 127, 0, 0.8) !important;
+
+    --red-bright-color: rgb(255, 62, 62) !important;
+    --red-dark-color: rgba(123, 22, 22) !important;
+    --hover-red-color: rgba(123, 22, 22, 0.3) !important;
+    --hover-red-bright-color: rgba(255, 36, 36, 0.8) !important;
+    --hover-red-dark-color: rgba(123, 22, 22, 0.8) !important;
+	
+	--trasnparent-color: rgba(0, 0, 0, 0) !important;
+
+    /* Background options */
+    --sepparation-blur: 10px !important;
+    --background-blur: 0px !important;
+    --background-brightness: 100% !important;
+}
+
+/* gray bar */
+body .title_a7d72e.container_fc4f04.themed_fc4f04 {
+  background: var(--transparent-color) !important;
+  backdrop-filter: blur(var(--sepparation-blur)) brightness(1.2) !important;
+  border-bottom: 2px solid var(--hover-bright-color) !important;
+  border-radius: 10px !important;
+}
+
+
+/* quick action toolbar */
+.wrapper_f7e168 {
+    background: rgba(0, 0, 0, 0.4) !important;
+    border: 1px solid var(--hover-color) !important;
+}
+.button_f7e168 {
+    color: var(--hover-bright-color) !important;
+}
+.button_f7e168:hover {
+    background-color: var(--hover-color) !important;
+}
+.button_f7e168:active {
+    color: var(--soft-bright-color) !important;
+    background-color: var(--hover-dark-color) !important;
+}
+.button_f7e168.dangerous_f7e168 {
+    color: var(--hover-red-bright-color) !important;
+}
+.button_f7e168.selected_f7e168 {
+    color: var(--soft-bright-color) !important;
+    background-color: var(--hover-dark-color) !important;
+}
+
+[class^=channelTextArea] [class^=buttons] > button,
+button:has([d^=" M-7,10"])
+{
+    display: none !important;
+}
+
+.expression-picker-chat-input-button.buttonContainer_d0696b {
+	color: var(--soft-bright-color) !important;
+}
+
+.searchBar_e0840f {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.iconWrapper_fc4f04.clickable_fc4f04.selected_fc4f04,
+.icon_fc4f04 svg path {
+  fill: var(--soft-bright-color) !important;
+}
+
+.akaBadge_d6c26f.textBadge_df8943.base_df8943.eyebrow_df8943.baseShapeRound_df8943 {
+    background-color: rgba(255, 255, 255, 0); /* Adjust the color values as needed */
+	color: #66d4ff
+}
+.nicknames_d6c26f.overflow_a82120 {
+	color: #66d4ff
+}
+
+.colorStandard_d1aa77.size14_e8b2ab.description_b89ec7.formText_b89ec7.modeDefault_b89ec7 {
+	color: #66d4ff
+}
+
+.text_a3747e.marginTop8_f7730b {
+	color: #66d4ff
+}
+
+.image_a3747e.marginBottom40_f7730b {
+	color: #66d4ff
+}
+
+.image_a3747e {
+filter: grayscale(0%) sepia(100%) saturate(350%) hue-rotate(180deg) brightness(80%) contrast(77%) !important;
+}
+
+.hamBanner_d1cafc {
+	background-color: rgba(0, 80, 100, 0.4);
+}
+
+.showMoreButton_c83b44.pill_c83b44 {
+	background-color: rgba(0, 80, 100, 0.4);
+}
+
+/* Or targeting the path within the SVG */
+.vc-safety-icon path {
+    fill: rgba(0, 155, 190, 1);
+}
+
+.dotSpacer_c32acf {
+    background-color: rgba(0, 155, 190, 1);
+}
+
+.container_e5a42d {
+	background-color: rgba(0, 60, 100, 0.4);
+}
+
+.overflow_a82120 {
+	color: rgba(0, 150, 190, 1);
+}
+
+.name_ec8679 {
+	color: rgba(0, 130, 175, 1);
+}
+
+.button_f9d37d.icon_f9d37d.vc-permviewer-role-button {
+    background-color: rgba(0, 80, 100, 0.4) !important;
+}
+
+.userTagUsername_c32acf {
+    color: rgba(0, 155, 190, 1);
+}
+
+.icon_f9d37d path {
+    fill: rgba(0, 140, 175, 0.9);
+}
+
+.container_c18ec9.medium_c18ec9 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.circleButton_a930f1.button_e258f5.secondary_e258f5.size36_e258f5 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.searchBar_b0740c.container_c18ec9.small_c18ec9 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.searchBar_cedfaf.container_c18ec9.small_c18ec9{
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.modal_f30e90.root_f9a4c9.fullscreenOnMobile_f9a4c9.rootWithShadow_f9a4c9 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.container_f30e90 {
+    background-color: rgba(0, 35, 50, 0.8) !important; /* Replace with your desired color */
+}
+
+.container_acb8b3 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.header_f30e90 {
+    background-color: rgba(0, 35, 50, 0.8) !important; /* Replace with your desired color */
+}
+
+.container_d7c696 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.vc-settings-quickActions-pill  {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+.vc-addon-card {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+
+.container_fc4f04.themed_fc4f04 {
+		background-color: rgba(0, 80, 100, 0.4); /* Blue with 50% opacity */
+
+}
+
+/* Friends header */
+.theme-dark.container_fc4f04.themed_fc4f04 {
+  background: rgba(0, 0, 0, 0) !important; /* Semi-transparent background */
+  /* background: rgba(22, 91, 123, 0.3) !important; */ /* Semi-transparent blueish background */
+  backdrop-filter: blur(0px); /* Optional: add blur effect */
+  -webkit-backdrop-filter: blur(0px); /* Safari support */
+  background-blend-mode: overlay; /* Blend mode to enhance effect */
+}
+
+.searchBar_b56bbc {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+
+/* Nitro header */
+.headerBar_d175a8.container_fc4f04.themed_fc4f04 {
+  background: rgba(0, 0, 0, 0) !important; /* Semi-transparent background */
+  /* background: rgba(22, 91, 123, 0.3) !important; */ /* Semi-transparent blueish background */
+  backdrop-filter: blur(0px); /* Optional: add blur effect */
+  -webkit-backdrop-filter: blur(0px); /* Safari support */
+  background-blend-mode: overlay; /* Blend mode to enhance effect */
+
+}
+
+/* Nitro background */
+.scroller_a8b566.auto_c49869.scrollerBase_c49869 {
+  background: rgba(0, 0, 0, 0) !important; /* Semi-transparent background */
+  /* background: rgba(22, 91, 123, 0.3) !important; */ /* Semi-transparent blueish background */
+  backdrop-filter: blur(0px); /* Optional: add blur effect */
+  -webkit-backdrop-filter: blur(0px); /* Safari support */
+  background-blend-mode: overlay; /* Blend mode to enhance effect */
+}
+
+/* Shop tab */
+.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/shop"] {
+  display: none;
+}
+
+[class*="membersGroup_"][class*="container_"]:nth-of-type(1){
+   display:none!important;
+
+}
+
+[class*="container_"][class*="openOnHover_"]{
+   display:none!important;
+}
+
+/* Help icon */
+.toolbar_fc4f04 [href="https://support.discord.com"]{display: none;}
+
+/* Inbox icon */	
+.recentsIcon_ea0547 {
+  display: none !important;
+}
+
+/* Channel app launcher (apps) button */
+.channelAppLauncher_df39bd {
+  display: none !important;
+}
+
+.footer_aa1bff {
+  display: none !important;
+}
+
+/* fix nitro gift and other similar menus background color */
+.content_f9a4c9 {
+  background-color: #081624;
+}
+
+/* fix nitro gift and other similar menus title bar color */
+.skuSelectModalHeader_f92df2 {
+  background-color: #081624;
+}
+
+/* fix gif/sticker/emoji menu */
+.header_b56bbc {
+  background-color: #081624;
+}
+.searchBar_c6ee36 {
+  background-color: #020a13;
+}
+#gif-picker-tab-panel {
+  background-color: #081624;
+}
+
+/* fix autocomplete background */
+.autocomplete_bcc24e {
+  background-color: #081624;
+}
+
+/* fixed unread messages bubble */
+.unreadBar_c43953 {
+  background-color: #446485;
+}
+
+/* Glowy thingy */ 
+.children_fc4f04::after {
+  content: none !important;
+}
+
+/* Threads search bar */
+.searchBox_e664f3.container_c18ec9.small_c18ec9 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+/* Threads bg */
+.container_fb4810 {
+    background-color: transparent;
+}
+/* Reaction bg */
+.reactionBtn_ec6b19.forceShow_ec6b19.forceShowLook_ec6b19 {
+    background-color: rgba(22, 91, 123, 0.3) !important; /* Replace with your desired color */
+}
+/* Shop tab */
+.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/shop"] {
+  display: none;
+}
+[class*="membersGroup_"][class*="container_"]:nth-of-type(1){
+   display:none!important;
+}
+[class*="container_"][class*="openOnHover_"]{
+   display:none!important;
+}
+/* Help icon */
+.toolbar_fc4f04 [href="https://support.discord.com"]{display: none;}
+/* Inbox icon */	
+.recentsIcon_ea0547 {
+  display: none !important;
+}
+/* Channel app launcher (apps) button */
+.channelAppLauncher_df39bd {
+  display: none !important;
+}
+.footer_aa1bff {
+  display: none !important;
+}
+/* fix nitro gift and other similar menus background color */
+.content_f9a4c9 {
+  background-color: #081624;
+}
+/* fix nitro gift and other similar menus title bar color */
+.skuSelectModalHeader_f92df2 {
+  background-color: #081624;
+}
+/* fix gif/sticker/emoji menu */
+.header_b56bbc {
+  background-color: #081624;
+}
+.searchBar_c6ee36 {
+  background-color: #020a13;
+}
+#gif-picker-tab-panel {
+  background-color: #081624;
+}
+/* fix autocomplete background */
+.autocomplete_bcc24e {
+  background-color: #081624;
+}
+/* fixed unread messages bubble */
+.unreadBar_c43953 {
+  background-color: #446485;
+}
+/* Glowy thingy */ 
+.children_fc4f04::after {
+  content: none !important;
+}
+/* Disable edit image with app button */
+.hoverButton_d0395d {
+  display: none !important;
+}
+
+/* Names in home */ 
+.overflow_a82120,
+.name_ec8679 {
+	color: var(--soft-bright-color) !important;
+}
+
+/* Read all if plugin enabled */
+.contents_dd4f85 {
+	color: var(--soft-bright-color) !important;
+}
+/* name in corner */
+.text-sm\/normal_dc00ef,
+.title_b97bdb,
+.hoverRoll_e07331,
+.hovered_e07331,
+.default_e07331,
+.forceHover_e07331 {
+    color: var(--soft-bright-color) !important; !important; /* Replace with your desired color */
+}
+
+/* timer */
+.text-xs\/normal_dc00ef,
+.subtext_be40e6,
+.channel_adcaac {
+    color: var(--hover-bright-color) !important; /* Replace with your desired color */
+}
+
+/* Speaker near who is in vc */
+.vc-uvs-speaker,
+.vc-uvs-clickable,
+.vc-uvs-speaker-margin {
+    color: var(--soft-bright-color) !important;
+}
+
+/* Plus icon with dm */
+.privateChannelRecipientsInviteButtonIcon_c47fa9,
+.iconWrapper_fc4f04
+.clickable_fc4f04 {
+    fill: var(--soft-bright-color) !important;
+}
+
+/* AKA badge */
+.akaBadge_d6c26f.textBadge_df8943.base_df8943.eyebrow_df8943.baseShapeRound_df8943 {
+    background-color: var(--dark-bg) !important; /* Adjust the color values as needed */
+    color: var(--soft-bright-color) !important;
+}
+
+/* I dont remember */
+.icon_f9d37d path {
+    fill: var(--soft-bright-color) !important;
+}
+
+/* Icons (call camera etc) */
+.iconWrapper_fc4f04.clickable_fc4f04 svg path {
+  fill: var(--soft-bright-color) !important;
+}
+
+/* leave server middle color fix */
+.content_f9a4c9.content_a4002a.thin_c49869.scrollerBase_c49869 {
+  background-color: var(--dark-bg) !important;
+}
+
+/* Forward colors */
+.text-sm\/medium_dc00ef.text_e31053 {
+  color: var(--soft-bright-color) !important;
+}
+
+.text-sm\/medium_dc00ef.text_e31053:hover {
+  color: var(--hover-bright-color) !important; 
+}
+
+/* Username and dot in profile */
+.userTagUsername_c32acf {
+  color: var(--hover-bright-color) !important;
+}
+
+.dotSpacer_c32acf {
+  background-color: var(--hover-bright-color) !important;
+}
+
+/* Search in friends tab */
+.searchBar_e0840f.container_c18ec9.medium_c18ec9 {
+  background-color: var(--hover-faded-color) !important;
+  border: 1px solid var(--hover-color) !important;
+}
+
+/* Person waving in corner image */
+.iconWrapper_fc4f04 svg path {
+  fill: var(--soft-bright-color) !important;
+}
+
+/* Activity (playing, watch etc. */
+.activityText_c91bad {
+  color: var(--soft-bright-color) !important;
+}
+
+/* Mutual servers */
+.listName_d2d6cb {
+  color: var(--soft-bright-color) !important;
+}
+
+/* Forward search */
+.container_c18ec9.medium_c18ec9 {
+  background-color: var(--hover-color) !important;
+}
+
+/* Devider between long messages */
+.content_c2654d {
+  color: var(--soft-bright-color) !important;
+}
+
+/* color in overview */
+.colorStandard_d1aa77,
+.size14_e8b2ab,
+.description_b89ec7,
+.formText_b89ec7,
+.modeDefault_b89ec7 {
+  color: var(--soft-bright-color) !important;
+}
+
+
+/* Permissions gray bar */
+
+.scrollerBase_c49869,
+.fade_c49869 {
+  background-color: var(--transparent-color) !important;
+}
+
+/* Permission gray card */
+.cardContent_eaaaea,
+.settingCard_dd864e {
+  background-color: var(--transparent-color) !important;
+  border: 1px solid var(--hover-color) !important;
+  border-radius: 5px !important;
+}
+
+/* Invite friends search bar fix */
+.searchBar_cedfaf.container_c18ec9.small_c18ec9 {
+  background-color: var(--hover-color) !important;
+}
+
+/* vencord settings menu */
+.vc-settings-quickActions-pill,
+.vc-addon-card  {
+    background-color: var(--hover-color) !important;
+}
+
+/* Experiments search */
+.inner_c18ec9 {
+    background-color: var(--hover-color) !important;
+}
+
+/* Vencord created at date */
+.datePicker_b71016 {
+    background-color: var(--hover-color) !important;
+}
+
+/* Activity text */
+.activityText_a31c43 {
+    color: var(--soft-bright-color) !important;
+}
+
+
+
+
+

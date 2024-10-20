@@ -16,10 +16,10 @@
 	--hover-dark-color: rgba(22, 91, 123, 0.8) !important;
 	--hover-bright-color: rgba(16, 165, 235, 0.8) !important;
 	--interactive-normal: #66d4ff !important;
-	/* emoji color */
 	
     /* Magenta accents */
-    /*--main-color: rgb(115, 22, 123) !important;
+    /*
+    --main-color: rgb(115, 22, 123) !important;
     --dark-bg: rgba(37, 7, 37, 0.95) !important;
     --soft-bright-color: rgba(255, 133, 255, 1) !important;
     --hover-color: rgba(123, 22, 123, 0.3) !important;
@@ -27,8 +27,8 @@
     --hover-faint-color: rgba(123, 22, 123, 0.1) !important;
     --hover-dark-color: rgba(123, 22, 123, 0.8) !important;
     --hover-bright-color: rgba(253, 97, 227, 0.8) !important;
-	--interactive-normal: #ff85ff !important;*/
-	/* emoji color */
+    --interactive-normal: #ff85ff !important;
+    */
 
     /* State colors */
     --green-bright-color: rgb(143, 255, 133) !important;

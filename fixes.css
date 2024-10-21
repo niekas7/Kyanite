@@ -549,7 +549,7 @@ filter: grayscale(0%) sepia(100%) saturate(350%) hue-rotate(180deg) brightness(8
   background-color: var(--hover-color) !important;
 }
 
-/* unread messages bubble */
+/* Unread messages bubble */
 .bar_edf32f.unreadBar_c43953.unread_edf32f.active_edf32f {
 	background-color: var(--main-color) !important;
 }
@@ -560,4 +560,9 @@ filter: grayscale(0%) sepia(100%) saturate(350%) hue-rotate(180deg) brightness(8
 /* @ menu */
 .scroller_bea0d0.thin_c49869.scrollerBase_c49869 {
 	background-color: var(--dark-bg) !important;
+}
+
+/* Remove circles around role edit */
+.circleButton_a930f1.button_e258f5.secondary_e258f5.size36_e258f5 {
+	background-color: rgba(var(--dark-bg-rgb), 1) !important;
 }

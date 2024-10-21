@@ -538,7 +538,15 @@ filter: grayscale(0%) sepia(100%) saturate(350%) hue-rotate(180deg) brightness(8
     color: var(--soft-bright-color) !important;
 }
 
+/* Jump to present not long enaugh fix */
+.jumpToPresentBar_cf58b5 {
+    width: 97.9%; /* Extend the bar to the right */
+    display: flex;
+    justify-content: space-between; /* Ensure buttons stay in their position */
+}
 
-
-
-
+/* GIF bg */
+#gif-picker-tab-panel,
+.header_b56bbc {
+    background-color: var(--dark-bg);
+}

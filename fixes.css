@@ -548,3 +548,16 @@ filter: grayscale(0%) sepia(100%) saturate(350%) hue-rotate(180deg) brightness(8
 .upsellContainer_f35d2c {
   background-color: var(--hover-color) !important;
 }
+
+/* unread messages bubble */
+.bar_edf32f.unreadBar_c43953.unread_edf32f.active_edf32f {
+	background-color: var(--main-color) !important;
+}
+.text_edf32f {
+	color: var(--soft-bright-color) !important;
+}
+
+/* @ menu */
+.scroller_bea0d0.thin_c49869.scrollerBase_c49869 {
+	background-color: var(--dark-bg) !important;
+}

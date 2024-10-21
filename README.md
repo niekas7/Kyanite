@@ -3,6 +3,8 @@
 
 ### [Download Kyanite (ctrl+s)](https://raw.githubusercontent.com/niekas7/Kyanite/refs/heads/main/Kyanite.css)
 ### [Or Kyanite.css from the releases page](https://github.com/niekas7/Kyanite/releases/latest)
+<br>
+### [Original theme here](https://github.com/Aely0/Kyanite)
 ---
 ## Kyanite Blue Theme
 ![image](https://github.com/user-attachments/assets/259a16f3-4aec-46f8-83d2-08cfa412d331)

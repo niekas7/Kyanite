@@ -511,13 +511,6 @@ filter: grayscale(0%) sepia(100%) saturate(350%) hue-rotate(180deg) brightness(8
   background-color: var(--transparent-color) !important;
 }
 
-/* Permission gray card */
-.cardContent_eaaaea,
-.settingCard_dd864e {
-  background-color: var(--transparent-color) !important;
-  border: 1px solid var(--hover-color) !important;
-  border-radius: 5px !important;
-}
 
 /* Invite friends search bar fix */
 .searchBar_cedfaf.container_c18ec9.small_c18ec9 {

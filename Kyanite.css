@@ -119,3 +119,8 @@ you can make it visible by uncommenting the style below. */
 .mouse-mode .message_d5deea:hover .buttons_d5deea {
   visibility: visible !important;
 }
+
+/* Remove bookmarks button by default */
+.iconWrapper_fc4f04:nth-child(8) {
+  display: none;
+}

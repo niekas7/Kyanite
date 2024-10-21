@@ -550,3 +550,11 @@ filter: grayscale(0%) sepia(100%) saturate(350%) hue-rotate(180deg) brightness(8
 .header_b56bbc {
     background-color: var(--dark-bg);
 }
+
+/* Fix bookmarks */
+.header_ac90a2 .emptyContainer_f35d2c {
+  background-color: var(--dark-bg) !important;
+}
+.upsellContainer_f35d2c {
+  background-color: var(--hover-color) !important;
+}

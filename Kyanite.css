@@ -82,6 +82,20 @@ body::after,
   background-image: url("https://github.com/niekas7/Kyanite/blob/main/Default_Background.jpg?raw=true") !important;
 }
 
+/* Background2 */
+/*
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash {
+  background-image: url("https://raw.githubusercontent.com/niekas7/Kyanite/refs/heads/main/Background2.jpg?raw=true") !important;
+}
+*/
+
 /* Custom rules */
 
 /* Here you can add your custom css to override the styling set by the theme. */

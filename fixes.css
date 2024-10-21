@@ -558,34 +558,3 @@ filter: grayscale(0%) sepia(100%) saturate(350%) hue-rotate(180deg) brightness(8
 .upsellContainer_f35d2c {
   background-color: var(--hover-color) !important;
 }
-
-/* actionbar ordering */
-.buttonsInner_d5deea {
-  display: flex;
-  flex-direction: row;
-}
-
-.hoverBarButton_e986d9[aria-label="Pin Message"] {
-  order: 1;
-}
-
-.hoverBarButton_e986d9[aria-label="Add Reaction"] {
-  order: 2;
-}
-
-.hoverBarButton_e986d9[aria-label="Edit"] {
-  order: 3;
-}
-
-.hoverBarButton_e986d9[aria-label="Forward"] {
-  order: 4;
-}
-
-.hoverBarButton_e986d9[aria-label="Reply"] {
-  order: 5;
-}
-
-.hoverBarButton_e986d9[aria-label="Delete"] {
-  order: 6;
-}
-

@@ -4,7 +4,7 @@
 ### [Download Kyanite (ctrl+s)](https://raw.githubusercontent.com/niekas7/Kyanite/refs/heads/main/Kyanite.css)
 ---
 ## Kyanite Blue Theme
-![image](https://github.com/user-attachments/assets/200746a8-7b7f-42f6-9bbc-5399406bf271)
+![image](https://github.com/user-attachments/assets/259a16f3-4aec-46f8-83d2-08cfa412d331)
 ---
 ## Kyanite Blue Dimmer Theme
 ![image](https://github.com/user-attachments/assets/4df84a09-4f45-4db8-8837-afe9a15fd61f)

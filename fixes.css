@@ -1,6 +1,6 @@
 /* Adjustable main color palette and background options */
 :root {
-  /* Kyanite accents */
+  /* DEFAULT Kyanite accents */
 	--main-color: rgba(22, 91, 123, 1) !important;
 	--dark-bg: rgba(7, 22, 37, 0.95) !important;
 	--soft-bright-color: rgb(133, 206, 255) !important;
@@ -11,41 +11,31 @@
 	--hover-bright-color: rgba(16, 165, 235, 0.8) !important;
 	--interactive-normal: #66d4ff !important;
 
-    /*Magenta accents */
-    /*--main-color: rgb(115, 22, 123) !important;
-    --dark-bg: rgba(37, 7, 37, 0.95) !important;
-    --soft-bright-color: rgba(255, 133, 255, 1) !important;
-    --hover-color: rgba(123, 22, 123, 0.3) !important;
-    --hover-faded-color: rgba(123, 22, 123, 0.2) !important;
-    --hover-faint-color: rgba(123, 22, 123, 0.1) !important;
-    --hover-dark-color: rgba(123, 22, 123, 0.8) !important;
-    --hover-bright-color: rgba(253, 97, 227, 0.8) !important*/;
-
     /* State colors */
-    --green-bright-color: rgb(143, 255, 133) !important;
-    --green-dark-color: rgba(34, 123, 22) !important;
-    --hover-green-color: rgba(46, 123, 22, 0.3) !important;
-    --hover-green-bright-color: rgba(41, 199, 27, 0.8) !important;
-    --hover-green-dark-color: rgba(34, 123, 22, 0.8) !important;
+    	--green-bright-color: rgb(143, 255, 133) !important;
+    	--green-dark-color: rgba(34, 123, 22) !important;
+    	--hover-green-color: rgba(46, 123, 22, 0.3) !important;
+    	--hover-green-bright-color: rgba(41, 199, 27, 0.8) !important;
+    	--hover-green-dark-color: rgba(34, 123, 22, 0.8) !important;
 
-    --yellow-bright-color: rgb(255, 202, 110) !important;
-    --yellow-dark-color: rgba(201, 127, 0) !important;
-    --hover-yellow-color: rgba(201, 127, 0, 0.3) !important;
-    --hover-yellow-bright-color: rgba(250, 166, 26, 0.8) !important;
-    --hover-yellow-dark-color: rgba(201, 127, 0, 0.8) !important;
+    	--yellow-bright-color: rgb(255, 202, 110) !important;
+    	--yellow-dark-color: rgba(201, 127, 0) !important;
+    	--hover-yellow-color: rgba(201, 127, 0, 0.3) !important;
+    	--hover-yellow-bright-color: rgba(250, 166, 26, 0.8) !important;
+    	--hover-yellow-dark-color: rgba(201, 127, 0, 0.8) !important;
 
-    --red-bright-color: rgb(255, 62, 62) !important;
-    --red-dark-color: rgba(123, 22, 22) !important;
-    --hover-red-color: rgba(123, 22, 22, 0.3) !important;
-    --hover-red-bright-color: rgba(255, 36, 36, 0.8) !important;
-    --hover-red-dark-color: rgba(123, 22, 22, 0.8) !important;
+    	--red-bright-color: rgb(255, 62, 62) !important;
+    	--red-dark-color: rgba(123, 22, 22) !important;
+    	--hover-red-color: rgba(123, 22, 22, 0.3) !important;
+    	--hover-red-bright-color: rgba(255, 36, 36, 0.8) !important;
+    	--hover-red-dark-color: rgba(123, 22, 22, 0.8) !important;
 	
 	--trasnparent-color: rgba(0, 0, 0, 0) !important;
 
     /* Background options */
-    --sepparation-blur: 10px !important;
-    --background-blur: 0px !important;
-    --background-brightness: 100% !important;
+    	--sepparation-blur: 10px !important;
+    	--background-blur: 0px !important;
+    	--background-brightness: 100% !important;
 }
 
 /* gray bar */

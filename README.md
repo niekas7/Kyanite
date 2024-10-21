@@ -3,8 +3,17 @@
 
 ### [Download Kyanite (ctrl+s)](https://raw.githubusercontent.com/niekas7/Kyanite/refs/heads/main/Kyanite.css)
 ---
-![image](https://github.com/niekas7/Kyanite/assets/89061334/11a9e32e-91d5-4e73-9450-859ae0abc568)
+## Kyanite Blue Theme
+![image](https://github.com/user-attachments/assets/200746a8-7b7f-42f6-9bbc-5399406bf271)
 ---
-![image](https://github.com/niekas7/Kyanite/assets/89061334/c465b14f-1af1-4244-97af-2a26394055a9)
+## Kyanite Blue Dimmer Theme
+![image](https://github.com/user-attachments/assets/4df84a09-4f45-4db8-8837-afe9a15fd61f)
 ---
-![image](https://github.com/niekas7/Kyanite/assets/89061334/dec22415-fbb4-419c-830d-660ac1563837)
+## Kyanite Magenta Theme
+![image](https://github.com/user-attachments/assets/652143aa-58e0-469b-acf1-8f88d1b44d04)
+---
+## Kyanite Green Theme
+![image](https://github.com/user-attachments/assets/eeab1476-9707-445d-b502-7ad27a9cebdc)
+---
+## Kyanite Orange theme
+![image](https://github.com/user-attachments/assets/c87875d8-a659-46e1-946c-df21e74773d3)

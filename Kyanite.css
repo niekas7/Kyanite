@@ -43,6 +43,19 @@
 	--interactive-normal: #ff85ff !important;
 	*/
 
+	/* Green accents */
+	/*
+	--main-color: rgba(34, 139, 34, 1) !important;
+	--dark-bg: rgba(0, 51, 0, 0.95) !important;
+	--soft-bright-color: rgb(117, 204, 117) !important;
+	--hover-color: rgba(34, 139, 34, 0.3) !important;
+	--hover-faded-color: rgba(34, 139, 34, 0.2) !important;
+	--hover-faint-color: rgba(34, 139, 34, 0.1) !important;
+	--hover-dark-color: rgba(34, 139, 34, 0.8) !important;
+	--hover-bright-color: rgba(60, 179, 113, 0.8) !important;
+	--interactive-normal: #99ff99 !important;  
+	*/
+
     /* State colors */
     --green-bright-color: rgb(143, 255, 133) !important;
     --green-dark-color: rgba(34, 123, 22) !important;

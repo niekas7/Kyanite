@@ -70,6 +70,7 @@ body .title_a7d72e.container_fc4f04.themed_fc4f04 {
     background-color: var(--hover-dark-color) !important;
 }
 
+/* Hide gift button */
 [class^=channelTextArea] [class^=buttons] > button,
 button:has([d^=" M-7,10"])
 {

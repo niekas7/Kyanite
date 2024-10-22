@@ -134,6 +134,6 @@ you can make it visible by uncommenting the style below. */
 }
 
 /* Remove bookmarks button by default */
-.iconWrapper_fc4f04:nth-child(8) {
+.iconWrapper_fc4f04:nth-child(8), .iconWrapper_fc4f04:nth-child(7) {
   display: none;
 }
